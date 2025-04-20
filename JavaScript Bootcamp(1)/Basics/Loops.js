@@ -21,7 +21,10 @@ for(let i=1;i<=5;i++){
   
 
   
+        //                  forEach loop (used for arrays)
 
+
+        
   // for...of loop (better for arrays)
   let colors=["Red","Green","Blue"];
   

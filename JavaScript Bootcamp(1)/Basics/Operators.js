@@ -12,22 +12,15 @@ console.log(a ** b); // Exponentiation(Power):a^b, 10^3 = 1000
 // Increment & Decrement
 let x = 5;
 console.log(x++); // Post-increment:  prints 5 then x becomes 6
-console.log(++x); // Pre-increment: x becomes 7 then prints 7
 console.log(x--); // Post-decrement: prints 7 then x becomes 6
-console.log(--x); // Pre-decrement: x becomes 5 then prints 5
+
+
 
 
 // Assignment Operators
-
-
 let y = 10;
 
 y+=5; //y=y+5
-y-=3;
-y *= 2;
-y /= 4;
-y %= 4;
-y **= 2;
 
 console.log(y); // Final result: 4
 
@@ -60,37 +53,3 @@ let hasID = false;
 console.log(isAdult && hasID); // AND: false
 console.log(isAdult || hasID); // OR: true
 console.log(!isAdult);         // NOT: false
-
-
-
-
-// String Operators
-
-
-let first = "Abdullah";
-let last = "Azhar";
-
-console.log(first + " " + last); // Concatenation: "Abdullah Azhar"
-
-
-
-
-// Type of Operators
-
-
-console.log(typeof 123);         // number
-console.log(typeof "Hello");     // string
-console.log(typeof true);        // boolean
-console.log(typeof undefined);   // undefined
-
-
-
-
-
-
-// Nullish Coalescing
-
-
-let name = "Abdullah";
-console.log(name ?? "Guest"); // If null/undefined → use "Guest"
-

@@ -34,20 +34,3 @@ else{
 
 let score = 80;
 console.log(score >= 50 ? "Pass" : "Fail"); // Ternary operator
-
-
-// nested if statements
-let username="abdullah";
-let password="12345";
-
-if(username==="abdullah"){
-  if(password==="12345"){
-    console.log("Login successful");
-  }
-  else{
-    console.log("Wrong password");
-  }
-}
-else{
-  console.log("User not found");
-}
