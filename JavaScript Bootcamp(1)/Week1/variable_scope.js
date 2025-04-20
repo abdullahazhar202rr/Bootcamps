@@ -1,9 +1,11 @@
-//                                    variable let
 
-let name = "Abdullah Azhar";  // Declare a variable called name and assign it a value.
+//                                    variable let
+//declaration
+let name;
+//initialization
+name = "Abdullah Azhar";  // Declare a variable called name and assign it a value.
 let age = 25;
 let isStudent = true; //boolean
-
 
 
 
@@ -16,6 +18,7 @@ function exampleVar() {
     var greeting = "Hello!";
     console.log(greeting); 
 }
+
 console.log(greeting);  // Error: greeting is not defined
 
 if (true) {
@@ -43,7 +46,7 @@ let globalVar = "I am global!";
 console.log(globalVar);  // Output: I am global!
 
 
-// Block Scope (accessible inside the block):
+//                       Block Scope (accessible inside the block):
 if (true) {
     let blockVar = "I am inside a block!";
     console.log(blockVar);  // Output: I am inside a block!

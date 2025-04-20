@@ -17,17 +17,11 @@ for(let i=1;i<=5;i++){
   do{
     console.log("Do While Loop: k =",k);
     k++;
-  }while(k<=5);
+  }while(k<=1);
   
 
   
-  // loop through array using for loop
-  let fruits=["Apple","Banana","Orange"];
-  
-  for(let i=0;i<fruits.length;i++){
-    console.log("Fruit:",fruits[i]);
-  }
-  
+
   // for...of loop (better for arrays)
   let colors=["Red","Green","Blue"];
   
@@ -45,4 +39,3 @@ for(let i=1;i<=5;i++){
   for(let key in person){
     console.log(key+":",person[key]);
   }
-  

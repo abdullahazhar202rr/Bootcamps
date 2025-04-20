@@ -72,10 +72,6 @@ let last = "Azhar";
 
 console.log(first + " " + last); // Concatenation: "Abdullah Azhar"
 
-// Template Literals (recommended)
-let age = 20;
-console.log(`My name is ${first} and I am ${age} years old.`);
-
 
 
 
@@ -86,20 +82,15 @@ console.log(typeof 123);         // number
 console.log(typeof "Hello");     // string
 console.log(typeof true);        // boolean
 console.log(typeof undefined);   // undefined
-console.log(typeof null);        // object (known JS quirk)
 
 
 
 
 
 
-
-
-// Nullish Coalescing & Ternary
+// Nullish Coalescing
 
 
 let name = "Abdullah";
 console.log(name ?? "Guest"); // If null/undefined → use "Guest"
 
-let score = 80;
-console.log(score >= 50 ? "Pass" : "Fail"); // Ternary operator

@@ -19,34 +19,21 @@ let marks=72;
 
 if(marks>=80){
   console.log("Grade: A");
-}else if(marks>=60){
+}
+else if(marks>=60){
   console.log("Grade: B");
-}else if(marks>=40){
+}
+else if(marks>=40){
   console.log("Grade: C");
-}else{
+}
+else{
   console.log("Fail");
 }
 
-// switch statement
-let day="Friday";
+//Ternanry operator
 
-switch(day){
-  case "Monday":
-    console.log("Start of the week");
-    break;
-  case "Wednesday":
-    console.log("Mid-week");
-    break;
-  case "Friday":
-    console.log("Weekend is near");
-    break;
-  case "Sunday":
-    console.log("It's a holiday");
-    break;
-  default:
-    console.log("Normal day");
-}
-
+let score = 80;
+console.log(score >= 50 ? "Pass" : "Fail"); // Ternary operator
 
 
 // nested if statements
@@ -56,9 +43,11 @@ let password="12345";
 if(username==="abdullah"){
   if(password==="12345"){
     console.log("Login successful");
-  }else{
+  }
+  else{
     console.log("Wrong password");
   }
-}else{
+}
+else{
   console.log("User not found");
 }

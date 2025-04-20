@@ -1,37 +1,3 @@
-let name = "Alice"; // String with double quotes
-let city = 'New York'; // String with single quotes
-let age = 25;       // Integer
-let temperature = 36.6;  // Floating-point number
-console.log(age);        // Output: 25
-console.log(temperature); // Output: 36.6
-
-
-let isStudent = true;
-let hasLicense = false;
-console.log(isStudent);  // Output: true
-console.log(hasLicense); // Output: false
-
-
-
-//object
-let person = {
-    name: "John",
-    age: 30,
-    isStudent: false
-};
-console.log(person.name);  // Output: John
-console.log(person.age);   // Output: 30
-
-//array
-let colors = ["red", "green", "blue"];
-console.log(colors[0]);  // Output: red
-console.log(colors.length);  // Output: 3
-
-
-
-
-
-
 //Type Conversion
 // Example 1: Adding a string and a number:
 let result = "5" + 10;
@@ -63,3 +29,8 @@ let bool2 = Boolean(stringg);  // Output: true (because a non-empty string is tr
 // Falsy values: 0, "", null, undefined, NaN, false.
 console.log(bool1);
 console.log(bool2);
+
+
+
+
+
